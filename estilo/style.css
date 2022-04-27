@@ -30,12 +30,26 @@ header > a {
 section {
     line-height: 1.5em;
     padding-bottom: 40px;
+    padding-top: 10px;
 }
 
 section.normal {
     background-color: white;
 }
 
-section.imagem {
-    background-color: aquamarine;
+section.imagem1 {
+    background-image: url("/imagens/background001.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+section.imagem2 {
+    background-image: url("/imagens/background002.jpg");
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.521);
+    font-size: 1.2em;
 }
