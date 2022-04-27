@@ -36,7 +36,7 @@ header a {
 }
 
 section {
-    line-height: 1.5em;
+    line-height: 2.5em;
     padding-bottom: 40px;
     padding-top: 40px;
     padding-left: 15px;
@@ -44,12 +44,14 @@ section {
 
 section p {
     padding: 10px;
+    font-family: var(--fontetexto);
+    font-size: 1.5em;
 }
 
 .imagem > p { /* Essa classe foi criada para as palavras. Criar um fundo para facilitar a leitura*/
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 250px;
+    width: 300px;
     color: white
 }
 
@@ -57,12 +59,14 @@ section p {
     background-image: url("../imagens/background001.jpg");
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #img002 {
     background-image: url("../imagens/background002.jpg");
     background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
