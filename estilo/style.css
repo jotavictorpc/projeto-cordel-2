@@ -6,7 +6,7 @@
 }
 
 :root {
-
+    
 }
 
 header {
@@ -32,14 +32,19 @@ header a {
 section {
     line-height: 1.5em;
     padding-bottom: 40px;
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+section p {
+    padding: 10px;
 }
 
 .imagem > p { /* Essa classe foi criada para as palavras. Criar um fundo para facilitar a leitura*/
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.514);
     color: white;
     width: 250px;
-    color: black;
+    color: white
 }
 
 #img001 {
