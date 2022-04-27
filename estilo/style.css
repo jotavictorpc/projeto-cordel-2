@@ -29,4 +29,13 @@ header > a {
 
 section {
     line-height: 1.5em;
+    padding-bottom: 40px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: aquamarine;
 }
