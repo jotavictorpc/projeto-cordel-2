@@ -14,7 +14,7 @@
 }
 
 header {
-    height: 200px;
+    height: 250px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.521);
 }
@@ -22,7 +22,7 @@ header {
 header h1 {
     padding-top: 50px;
     font-family: var(--fontetitulo);
-    font-size: 4em;
+    font-size: 10vw; /* 10% da largura da vw. Adapta de acordo com o tamanho da tela*/
 }
 
 header p {
@@ -33,6 +33,12 @@ header a {
     text-decoration: none;
     color: brown;
     font-weight: bold;
+}
+
+header a:hover {
+    background-color: rgba(165, 42, 42, 0.377);
+    text-decoration: underline;
+    padding: 3px;
 }
 
 section {
@@ -60,6 +66,7 @@ section p {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
 }
 
 #img002 {
@@ -67,6 +74,7 @@ section p {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
 }
 
 
