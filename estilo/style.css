@@ -15,16 +15,18 @@ header {
     background-color: rgba(0, 0, 0, 0.521);
 }
 
-header > h1 {
+header h1 {
     padding-top: 50px;
 }
 
-header > p {
+header p {
     padding-top: 5px;
 }
 
-header > a {
+header a {
     text-decoration: none;
+    color: brown;
+    font-weight: bold;
 }
 
 section {
@@ -32,6 +34,26 @@ section {
     padding-bottom: 40px;
     padding-top: 10px;
 }
+
+.imagem > p { /* Essa classe foi criada para as palavras. Criar um fundo para facilitar a leitura*/
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    width: 250px;
+    color: black;
+}
+
+#img001 {
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+#img002 {
+    background-image: url("../imagens/background002.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
 
 footer {
     padding: 10px;
