@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+}
+
+header {
+    height: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+header > h1 {
+    padding-top: 50px;
+}
+
+header > p {
+    padding-top: 5px;
+}
+
+header > a {
+    text-decoration: none;
+}
+
+section {
+    line-height: 1.5em;
+}
