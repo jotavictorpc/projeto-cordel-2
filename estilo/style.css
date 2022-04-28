@@ -14,7 +14,7 @@
 }
 
 header {
-    height: 230px;
+    height: 40vh;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.521);
 }
@@ -27,7 +27,6 @@ header h1 {
 
 header p {
     padding-top: 5px;
-    padding-bottom: 40px;
 }
 
 header a {
